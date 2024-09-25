@@ -1,0 +1,172 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.js-thank-you-card{
+    display: none;
+  }
+
+  .first-card{
+    width: 280px;
+    padding: 16px 32px;
+    border-radius: 24px;
+    background-color: rgb(13, 13, 27);
+    margin-bottom: 24px;
+  }
+
+  .star-icon{
+    background-color:rgb(27, 27, 48);
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25rem;
+    margin-bottom: 1.125rem;
+  }
+
+  /*
+  
+  .star {
+    background-color: rgb(42, 49, 58);
+    width: 50px;
+    border-radius: 20px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+
+  .star img{
+    width: 18px;
+  }
+  */
+
+  .first-header-text{
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 0.75rem;
+  }
+
+  .body-text{
+    width: 280px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.10px;
+    line-height: 1.25rem;
+    color: gray;
+    margin-bottom: 1.25rem;
+  }
+
+  .rating-button-container{
+    width: 280px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 1rem;
+  }
+
+  .rating-button{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(27, 27, 48);
+    color: rgb(122, 115, 115);
+    font-size: 0.875rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 22.5px;
+    transition: background-color 0.15s, color 0.15s;
+  }
+
+  .rating-button:hover{
+    background-color:rgb(216, 106, 17);
+    color: white;
+  }
+
+  .rating-pressed{
+    background-color: rgb(112, 110, 110);
+    color: white;
+  }
+
+  .submit-button-container{
+    width: 280px;
+    height: 40px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+
+  .submit-button{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(216, 106, 17);
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: background-color 0.15s, color 0.15s, font-weight 0.15s;
+  }
+
+  .submit-button:hover{
+    background-color: white;
+    color: rgb(216, 106, 17);
+    font-weight: 600;
+  }
+
+  .thankyou-card{
+    width: 300px;
+    padding: 32px 16px;
+    background-color: rgb(37, 35, 58);
+    border-radius: 24px;
+  }
+  .thankyou-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .thankyou-image img{
+    width: 125px;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .ratings-clicked{
+    width: 180px;
+    padding: 8px;
+    border-radius: 16px;
+    font-size: 0.875rem;
+    background-color: rgb(8, 8, 29);
+    color: rgb(197, 117, 43);
+    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .thankyou-header{
+    color: white;
+    font-size: 1.25rem;
+    margin-bottom: 0.875rem;
+  }
+
+  .thankyou-body-text{
+    font-size: 0.75rem;
+    width: 275px;
+    color: rgb(182, 173, 173);
+    text-align: center;
+    line-height: 20px;
+  }

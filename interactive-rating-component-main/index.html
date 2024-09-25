@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" type="text/css" href="Style.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+<body>
+
+  <main>
+
+    <div class="js-firstcard first-card">
+      <div class="star-icon">
+        <img src="images/icon-star.svg">
+      </div>
+
+        <h2 class="first-header-text">
+          How did we do?
+        </h2>
+
+        <p class="body-text">
+          Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!
+        </p>
+
+        <div class="rating-button-container">
+          <button class="js-rating rating-button">1</button>
+          <button class="js-rating rating-button">2</button>
+          <button class="js-rating rating-button">3</button>
+          <button class="js-rating rating-button">4</button>
+          <button class="js-rating rating-button">5</button>
+        </div>
+
+        <div class="submit-button-container">
+          <button class="js-submit-button submit-button">SUBMIT</button>
+        </div>
+    </div>
+
+      <div class="js-thank-you-card thankyou-card">
+
+        <div class="thankyou-body">
+          <div class="thankyou-image">
+            <img src="images/illustration-thank-you.svg">
+          </div>
+    
+          <div class="js-ratings-clicked ratings-clicked">
+            You selected 0 out of 5
+          </div>
+    
+          <h2 class="thankyou-header">
+            Thank you!
+          </h2>
+    
+          <p class="thankyou-body-text">
+            We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!
+          </p>
+        </div>
+          
+      </div>
+
+  </main>
+
+  
+  <!--<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Abdulsamad</a>.
+  </div> -->
+
+  <script src="index.js"></script>
+</body>
+</html>
